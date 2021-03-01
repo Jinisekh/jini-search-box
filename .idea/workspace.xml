@@ -1,66 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88ce2889-b259-4f0a-b6a8-b9f476da8eec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.jini.zendesk.search.index.DataIndexStoreTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.jini.zendesk.search.index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/organizations.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/tickets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/organizations_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/tickets_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/users_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.jini.zendesk.search.index.DataIndexStoreTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jini/zendesk/app/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jini/zendesk/model/Organization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jini/zendesk/model/OrganizationEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jini/zendesk/model/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jini/zendesk/model/TicketEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jini/zendesk/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jini/zendesk/model/UserEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jini/zendesk/search/index/DataIndexStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jini/zendesk/search/service/DataSearchStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jini/zendesk/util/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/organizations.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/tickets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jini/zendesk/search/index/DataIndexStoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/organizations_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tickets_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/users_test.json" afterDir="false" />
-    </list>
+    <list default="true" id="88ce2889-b259-4f0a-b6a8-b9f476da8eec" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -282,7 +223,19 @@
       <option name="presentableId" value="Default" />
       <updated>1614406188300</updated>
     </task>
+    <task id="LOCAL-00001" summary="Project created as part of Coding challenge - Zendesk for Jini Sekh">
+      <created>1614579415665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614579415665</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project created as part of Coding challenge - Zendesk for Jini Sekh" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project created as part of Coding challenge - Zendesk for Jini Sekh" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="162" key="#Project_Structure" timestamp="1614485465982">
@@ -313,10 +266,10 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="557" y="356" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.947@0.23.1680.947" timestamp="1614577881269" />
-    <state x="445" y="99" key="CommitChangelistDialog2" timestamp="1614579348308">
+    <state x="445" y="99" key="CommitChangelistDialog2" timestamp="1614579415387">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="445" y="99" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1614579348308" />
+    <state x="445" y="99" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1614579415387" />
     <state width="1638" height="365" key="GridCell.Tab.0.bottom" timestamp="1614579348348">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
