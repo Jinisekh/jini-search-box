@@ -42,11 +42,11 @@ public class Application {
                         System.out.println("Kindly enter a valid option. Press 1 for Zendesk search, 2 for displaying searchable fields or 'quit' to cancel the operation\n");
                         continue;
                 }
+                System.out.println("\n");
                 System.out.println("Press 1 to search, 2 to get all searchable fields or 'quit' to cancel the operation");
             }
         } catch (Exception e) {
-            e.printStackTrace();
-            System.out.println("Oops Exception has been encountered. Please restart the system");
+            System.out.println("Oops we have encountered with an Exception!!!! Please restart the application:::"+e.getMessage());
         }
     }
 
