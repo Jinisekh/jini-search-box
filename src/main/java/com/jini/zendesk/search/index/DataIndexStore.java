@@ -19,7 +19,8 @@ public class DataIndexStore {
 
     private Map<Integer, Set<Integer>> orgToUserRelationMap = new HashMap<>();
     private Map<Integer, Set<String>> orgToTicketRelationMap = new HashMap<>();
-    private Map<Integer, Set<String>> userToTicketRelationMap = new HashMap<>();
+    private Map<Integer, Set<String>> userToTicketSubmittedRelationMap = new HashMap<>();
+    private Map<Integer, Set<String>> userToTicketAssignedRelationMap = new HashMap<>();
 
     private Map<String, Map<String, Set<Organization>>> orgSearchIndex = new HashMap<>();
     private Map<String, Map<String, Set<User>>> userSearchIndex = new HashMap<>();
@@ -79,7 +80,8 @@ public class DataIndexStore {
         ticketList.forEach(ticket -> {
             ticketEntityMap.put(ticket.get_id(), ticket);
             addOrgToTicketRelations(ticket);
-            addUserToTicketRelations(ticket);
+            addUserToTicketSubmittedRelations(ticket);
+            addUserToTicketAssignedRelations(ticket);
             addTicketToSearchIndex(ticket);
         });
         return ticketEntityMap;
@@ -111,11 +113,18 @@ public class DataIndexStore {
         fieldValueIndex.get(lowerCaseValue).add(ticket);
     }
 
-    private void addUserToTicketRelations(Ticket ticket) {
-        if (!userToTicketRelationMap.containsKey(ticket.getSubmitter_id())) {
-            userToTicketRelationMap.put(ticket.getSubmitter_id(), new HashSet<>());
+    private void addUserToTicketSubmittedRelations(Ticket ticket) {
+        if (!userToTicketSubmittedRelationMap.containsKey(ticket.getSubmitter_id())) {
+            userToTicketSubmittedRelationMap.put(ticket.getSubmitter_id(), new HashSet<>());
         }
-        userToTicketRelationMap.get(ticket.getSubmitter_id()).add(ticket.getSubject());
+        userToTicketSubmittedRelationMap.get(ticket.getSubmitter_id()).add(ticket.getSubject());
+    }
+
+    private void addUserToTicketAssignedRelations(Ticket ticket) {
+        if (!userToTicketAssignedRelationMap.containsKey(ticket.getAssignee_id())) {
+            userToTicketAssignedRelationMap.put(ticket.getAssignee_id(), new HashSet<>());
+        }
+        userToTicketAssignedRelationMap.get(ticket.getAssignee_id()).add(ticket.getSubject());
     }
 
     private void addOrgToTicketRelations(Ticket ticket) {
@@ -158,18 +167,6 @@ public class DataIndexStore {
         fieldValueIndex.get(lowerCaseValue).add(org);
     }
 
-    public Set<User> getOrganizationUsers(String orgId) {
-        return null;
-    }
-
-    public Set<Ticket> getUserTickers(String userId) {
-        return null;
-    }
-
-    public Set<Ticket> getOrganizationTickets(String orgId) {
-        return null;
-    }
-
     public Map<Integer, Organization> getOrgEntityMap() {
         return orgEntityMap;
     }
@@ -190,8 +187,8 @@ public class DataIndexStore {
         return orgToTicketRelationMap;
     }
 
-    public Map<Integer, Set<String>> getUserToTicketRelationMap() {
-        return userToTicketRelationMap;
+    public Map<Integer, Set<String>> getUserToTicketSubmittedRelationMap() {
+        return userToTicketSubmittedRelationMap;
     }
 
     public Map<String, Map<String, Set<Organization>>> getOrgSearchIndex() {
@@ -204,5 +201,9 @@ public class DataIndexStore {
 
     public Map<String, Map<String, Set<Ticket>>> getTicketSearchIndex() {
         return ticketSearchIndex;
+    }
+
+    public Map<Integer, Set<String>> getUserToTicketAssignedRelationMap() {
+        return userToTicketAssignedRelationMap;
     }
 }

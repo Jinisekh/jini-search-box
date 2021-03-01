@@ -123,7 +123,8 @@ public class DataSearchStore {
     private void displayUserResult(String userInputField, String userInputValue, DataIndexStore indexStore) {
 
         Map<String, Map<String, Set<User>>> userSearchIndex = indexStore.getUserSearchIndex();
-        Map<Integer, Set<String>> userToTicketRelation = indexStore.getUserToTicketRelationMap();
+        Map<Integer, Set<String>> userToTicketSubmittedRelation = indexStore.getUserToTicketSubmittedRelationMap();
+        Map<Integer, Set<String>> userToTicketAssignedRelation = indexStore.getUserToTicketAssignedRelationMap();
 
         if(!userSearchIndex.containsKey(userInputField) || !userSearchIndex.get(userInputField).containsKey(userInputValue.toLowerCase())) {
             System.out.println("No records were found. Please try again");
@@ -154,8 +155,11 @@ public class DataSearchStore {
             System.out.println("Suspended\t\t"+e.getSuspended());
             System.out.println("Role\t\t\t"+e.getRole());
             System.out.println("Tags\t\t\t"+e.getTags());
-            if(userToTicketRelation.containsKey(e.get_id())){
-                System.out.println("Tickets Submitted\t"+userToTicketRelation.get(e.get_id()));
+            if(userToTicketSubmittedRelation.containsKey(e.get_id())){
+                System.out.println("Tickets Submitted\t"+userToTicketSubmittedRelation.get(e.get_id()));
+            }
+            if(userToTicketAssignedRelation.containsKey(e.get_id())){
+                System.out.println("Tickets Assigned\t"+userToTicketAssignedRelation.get(e.get_id()));
             }
             System.out.println("-------------------------------------------------------");
         });
