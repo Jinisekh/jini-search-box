@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.jini.zendesk.search.index.DataIndexStoreTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-28T22:56:30" hostname="Monendras-MBP-2.modem" time="0.213">
+<testsuite name="com.jini.zendesk.search.index.DataIndexStoreTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-01T10:40:54" hostname="Monendras-MBP-2.modem" time="0.218">
   <properties/>
-  <testcase name="testOrdIndexLoad" classname="com.jini.zendesk.search.index.DataIndexStoreTest" time="0.213"/>
+  <testcase name="testOrdIndexLoad" classname="com.jini.zendesk.search.index.DataIndexStoreTest" time="0.163"/>
+  <testcase name="testUserIndexLoad" classname="com.jini.zendesk.search.index.DataIndexStoreTest" time="0.026"/>
+  <testcase name="testTicketIndexLoad" classname="com.jini.zendesk.search.index.DataIndexStoreTest" time="0.029"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

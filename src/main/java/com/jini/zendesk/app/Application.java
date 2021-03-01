@@ -9,7 +9,6 @@ import java.util.Scanner;
 public class Application {
 
     static DataIndexStore indexStore = new DataIndexStore();
-    static Scanner in = new Scanner(System.in);
 
     public static void main(String[] args) {
         try {
@@ -23,7 +22,7 @@ public class Application {
             System.out.println("Press 2 to view a list of searchable fields.\n");
             System.out.println("Type 'quit' to exit.\n");
             System.out.println("\n");
-
+            Scanner in = new Scanner(System.in);
             String input = "";
             while (!input.equalsIgnoreCase("quit")) {
                 input = in.next();
