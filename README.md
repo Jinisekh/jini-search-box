@@ -11,9 +11,11 @@ This is a Java project built using gradle. To the run the application you must h
 + Install Gradle
 
 ### Clone project from github
+
+ - Open terminal in any suitable folder
+ - run below command 
 ```
- Open terminal in any suitable folder
- run command "git clone https://github.com/Jinisekh/jini-search-box.git"
+ git clone https://github.com/Jinisekh/jini-search-box.git
 ```
 
 ### Install Gradle
