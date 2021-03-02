@@ -18,8 +18,8 @@ On Mac OS X: Run below command (I'm using brew package installer.)
 
 If the installation is successful you can run application by executing below 2 command in sequence :
 
- > gradle clean build
- > gradle run 
+ - > gradle clean build
+ - > gradle run 
 
 Sample output will look like ::: 
 
