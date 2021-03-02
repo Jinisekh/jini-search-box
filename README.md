@@ -23,6 +23,18 @@ If the installation is successful you can run application by executing below 2 c
 
 Sample output will look like ::: 
 
+> Task :run
+Welcome to Zendesk Search.
 
+Please select any of the following options.
+
+Press 1 to search Zendesk.
+
+Press 2 to view a list of searchable fields.
+
+Type 'quit' to exit.
+
+
+You can Press 1 to start searching!
 
 
