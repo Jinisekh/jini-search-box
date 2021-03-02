@@ -38,8 +38,6 @@ cd <your-folder-path>/jini-search-box
 
 ### A sample output will look like this::::
 
- - Open terminal on the project folder
- - run below command 
 ```
 Welcome to Search.
 
