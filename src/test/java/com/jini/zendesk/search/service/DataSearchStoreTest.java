@@ -81,9 +81,6 @@ public class DataSearchStoreTest {
                 "tags";
         DataSearchStore searchStore = new DataSearchStore();
         DataIndexStore indexStore = new DataIndexStore();
-        indexStore.createOrgIndex(Utils.getFileFromResource("organizations_test.json"));
-        indexStore.createTicketIndex(Utils.getFileFromResource("tickets_test.json"));
-        indexStore.createUserIndex(Utils.getFileFromResource("users_test.json"));
         searchStore.displaySearchableFields();
         assertEquals(testString,getOutput().trim());
     }
