@@ -1,2 +1,0 @@
-com/jini/zendesk/search/index/DataIndexStoreTest.java
- com.jini.zendesk.search.index.DataIndexStoreTest
