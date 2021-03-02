@@ -42,7 +42,9 @@ public class Application {
                         continue;
                 }
                 System.out.println("\n");
-                System.out.println("Press 1 to search, 2 to get all searchable fields or 'quit' to cancel the operation");
+                if(!input.toLowerCase().equalsIgnoreCase("quit")) {
+                    System.out.println("Press 1 to search, 2 to get all searchable fields or 'quit' to cancel the operation");
+                }
             }
         } catch (Exception e) {
             System.out.println("Oops we have encountered with an Exception!!!! Please restart the application:::"+e.getMessage());
