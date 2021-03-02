@@ -9,6 +9,7 @@ public class Utils {
         ClassLoader classLoader = Utils.class.getClassLoader();
         URL resource = classLoader.getResource(fileName);
         if (resource == null) {
+            System.out.println("Filename ::"+fileName+":: was not found. Please check if the file name is correct");
             throw new IllegalArgumentException("file not found! " + fileName);
         } else {
             return new File(resource.toURI());
