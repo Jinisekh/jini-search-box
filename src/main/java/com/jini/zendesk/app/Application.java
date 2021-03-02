@@ -1,5 +1,6 @@
 package com.jini.zendesk.app;
 
+import com.jini.zendesk.model.DataResourceEnum;
 import com.jini.zendesk.search.index.DataIndexStore;
 import com.jini.zendesk.search.service.DataSearchStore;
 import com.jini.zendesk.util.Utils;
@@ -12,9 +13,9 @@ public class Application {
 
     public static void main(String[] args) {
         try {
-            indexStore.createOrgIndex(Utils.getFileFromResource("organizations.json"));
-            indexStore.createUserIndex(Utils.getFileFromResource("users.json"));
-            indexStore.createTicketIndex(Utils.getFileFromResource("tickets.json"));
+            indexStore.createOrgIndex(Utils.getFileFromResource(DataResourceEnum.ORGANIZATION.fileName));
+            indexStore.createUserIndex(Utils.getFileFromResource(DataResourceEnum.USERS.fileName));
+            indexStore.createTicketIndex(Utils.getFileFromResource(DataResourceEnum.TICKET.fileName));
             DataSearchStore searchStore = new DataSearchStore();
             System.out.println("Welcome to Zendesk Search.\n");
             System.out.println("Please select any of the following options.\n");
@@ -42,12 +43,12 @@ public class Application {
                         continue;
                 }
                 System.out.println("\n");
-                if(!input.toLowerCase().equalsIgnoreCase("quit")) {
+                if (!input.toLowerCase().equalsIgnoreCase("quit")) {
                     System.out.println("Press 1 to search, 2 to get all searchable fields or 'quit' to cancel the operation");
                 }
             }
         } catch (Exception e) {
-            System.out.println("Oops we have encountered with an Exception!!!! Please restart the application:::"+e.getMessage());
+            System.out.println("Oops we have encountered with an Exception!!!! Please restart the application:::" + e.getMessage());
         }
     }
 
