@@ -4,7 +4,7 @@
 ## A simple command line application to search data based on the data provided (organizations.json, users.json and tickets.json) and return results in human readble format.
 
 ### PROJECT DETAILS:
-This is a Java project built using gradle. To the run the application you must have gradle installed in you system. 
+This is a Java project built using gradle. To the run the application you must have gradle installed in your system. 
 
 ### What you’ll need
 + JDK 8 or later
