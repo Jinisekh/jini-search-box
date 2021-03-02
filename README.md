@@ -38,8 +38,15 @@ $ sudo apt-get install gradle
 
   + [Download from Gradle site](https://docs.gradle.org/current/userguide/installation.html).
 
-  
-  
+### Build and Run the Project
 
+ - Open terminal on the project folder
+ - run below command 
+```
+ gradle clean build
+```
+```
+ gradle run
+```
 
 
