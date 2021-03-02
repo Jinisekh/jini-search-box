@@ -7,10 +7,6 @@ application {
     mainClassName = 'com.jini.zendesk.app.Application'
 }
 
-test {
-    include "com.jini.zendesk.search.*"
-}
-
 run{
     standardInput = System.in
 }
