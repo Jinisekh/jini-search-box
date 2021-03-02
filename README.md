@@ -1,4 +1,4 @@
-# jini-search-box
+# Coding-challenge-Jini Sekh
 
 ## AIM:
 ## A simple command line application to search data based on the data provided (organizations.json, users.json and tickets.json) and return results in human readble format.
