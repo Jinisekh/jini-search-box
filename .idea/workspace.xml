@@ -2,31 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88ce2889-b259-4f0a-b6a8-b9f476da8eec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jini/zendesk/model/OrganizationEnumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jini/zendesk/model/OrganizationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jini/zendesk/model/TicketEnumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jini/zendesk/model/TicketTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jini/zendesk/model/UserEnumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jini/zendesk/model/UserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jini/zendesk/search/service/DataSearchStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jini/zendesk/search/service/DataSearchStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jini/zendesk/search/index/DataIndexStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jini/zendesk/search/index/DataIndexStoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/users_test.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/users_test.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,9 +85,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
         <option value="Enum" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -108,6 +109,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -119,6 +121,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.jini.zendesk.model" />
       <recent name="com.jini.zendesk.search.index" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -130,13 +133,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/jini/zendesk" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DataIndexStoreTest">
-    <configuration name="DataIndexStoreTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Tests in 'ZendeskSearchBox.test'">
+    <configuration name="OrganizationEnumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.jini.zendesk.search.index.DataIndexStoreTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.jini.zendesk.model.OrganizationEnumTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -151,12 +154,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DataIndexStoreTest.testOrdIndexLoad" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OrganizationEnumTest.testOrganizationModel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.jini.zendesk.search.index.DataIndexStoreTest.testOrdIndexLoad&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.jini.zendesk.model.OrganizationEnumTest.testOrganizationModel&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -171,12 +174,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DataSearchStoreTest.testDisplaySearchableFields" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OrganizationTest.testOrganizationModel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.jini.zendesk.search.service.DataSearchStoreTest.testDisplaySearchableFields&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.jini.zendesk.model.OrganizationTest.testOrganizationModel&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -211,12 +214,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'com.jini.zendesk.search'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'com.jini.zendesk.model'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.jini.zendesk.search.*&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.jini.zendesk.model.*&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -280,11 +283,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DataIndexStoreTest" />
-        <item itemvalue="Gradle.Tests in 'com.jini.zendesk.search'" />
-        <item itemvalue="Gradle.DataIndexStoreTest.testOrdIndexLoad" />
-        <item itemvalue="Gradle.DataSearchStoreTest.testDisplaySearchableFields" />
         <item itemvalue="Gradle.Tests in 'ZendeskSearchBox.test'" />
+        <item itemvalue="Gradle.Tests in 'com.jini.zendesk.model'" />
+        <item itemvalue="Gradle.OrganizationEnumTest.testOrganizationModel" />
+        <item itemvalue="Gradle.OrganizationEnumTest" />
+        <item itemvalue="Gradle.OrganizationTest.testOrganizationModel" />
       </list>
     </recent_temporary>
   </component>
@@ -350,22 +353,22 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="445" y="99" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1614579415387" />
-    <state width="1638" height="365" key="GridCell.Tab.0.bottom" timestamp="1614719988647">
+    <state width="1638" height="365" key="GridCell.Tab.0.bottom" timestamp="1614724744907">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1638" height="365" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1614719988647" />
-    <state width="1638" height="365" key="GridCell.Tab.0.center" timestamp="1614719988646">
+    <state width="1638" height="365" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1614724744907" />
+    <state width="1638" height="365" key="GridCell.Tab.0.center" timestamp="1614724744906">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1638" height="365" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1614719988646" />
-    <state width="1638" height="365" key="GridCell.Tab.0.left" timestamp="1614719988646">
+    <state width="1638" height="365" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1614724744906" />
+    <state width="1638" height="365" key="GridCell.Tab.0.left" timestamp="1614724744905">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1638" height="365" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1614719988646" />
-    <state width="1638" height="365" key="GridCell.Tab.0.right" timestamp="1614719988646">
+    <state width="1638" height="365" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1614724744905" />
+    <state width="1638" height="365" key="GridCell.Tab.0.right" timestamp="1614724744906">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state width="1638" height="365" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1614719988646" />
+    <state width="1638" height="365" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1614724744906" />
     <state width="1638" height="313" key="GridCell.Tab.1.bottom" timestamp="1614719625826">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
@@ -386,14 +389,18 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="552" y="397" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1680.947@0.23.1680.947" timestamp="1614406653777" />
-    <state x="597" y="230" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1614406690503">
+    <state x="597" y="230" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1614723955833">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="597" y="230" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.947@0.23.1680.947" timestamp="1614406690503" />
+    <state x="597" y="230" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.947@0.23.1680.947" timestamp="1614723955833" />
     <state x="410" y="239" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1614719575395">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="410" y="239" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1680.947@0.23.1680.947" timestamp="1614719575395" />
+    <state x="578" y="256" key="extract.method.dialog" timestamp="1614720185016">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="578" y="256" key="extract.method.dialog/0.23.1680.947@0.23.1680.947" timestamp="1614720185016" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1614506375103">
       <screen x="0" y="23" width="1680" height="947" />
     </state>

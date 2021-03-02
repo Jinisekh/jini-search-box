@@ -45,7 +45,7 @@ public class DataIndexStoreTest {
         assertEquals("http://initech.zendesk.com/api/v2/users/1.json",user.getUrl());
         assertEquals("74341f74-9c79-49d5-9611-87ef9b6eb75f",user.getExternal_id());
         assertEquals("Francisca Rasmussen",user.getName());
-        assertEquals("Miss Coffey",user.getAlias());
+        assertNull(user.getAlias());
         assertEquals("2016-04-15T05:19:46 -10:00",user.getCreated_at());
         assertEquals(true,user.getActive());
         assertEquals(true,user.getVerified());
