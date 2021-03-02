@@ -7,8 +7,7 @@
 This is a Java project built using gradle. To the run the application you must have gradle installed in you system. 
 
 ### What you’ll need
-+ A favorite text editor or IDE
-+ JDK 6 or later
++ JDK 8 or later
 + Install Gradle
 
 ### Install Gradle
@@ -39,33 +38,6 @@ $ sudo apt-get install gradle
 
   + Open a new command prompt (type cmd in Start menu) and run gradle –version to verify that it is correctly installed.
   
-### To test the Gradle installation, run Gradle from the command-line: `gradle`
-+ If all goes well, you see a welcome message:
-```
-:help
 
-Welcome to Gradle 2.8.
-
-To run a build, run gradle <task> ...
-
-To see a list of available tasks, run gradle tasks
-
-To see a list of command-line options, run gradle --help
-
-To see more detail about a task, run gradle help --task <task>
-
-BUILD SUCCESSFUL
-
-Total time: 6.317 secs
-```
-
-+  You now have Gradle installed.
-
-#### Find out what Gradle can do
-Now that Gradle is installed, see what it can do. Before you even create a build.gradle file for the project.
-
-   + You can ask it what tasks are available: `gradle tasks`
-
-   + If you run `gradle tasks` this command out side your project directory then you can see the output.
 
 
