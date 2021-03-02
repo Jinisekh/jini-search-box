@@ -16,5 +16,5 @@ On Mac OS X: Run below command (I'm using brew package installer.)
 
 brew install gradle
 
-Install Homebrew.
+Install Homebrew. 
 
