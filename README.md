@@ -14,7 +14,7 @@ Install Gradle:
 
 On Mac OS X: Run below command (I'm using brew package installer.)
 
-brew install gradle
+> brew install gradle
 
 If the installation is successful you can run application by executing below 2 command in sequence :
 
