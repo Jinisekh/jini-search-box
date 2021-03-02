@@ -10,6 +10,10 @@ This is a Java project built using gradle. To the run the application you must h
 + JDK 8 or later
 + Install Gradle
 
+### Clone project from github
++ Open terminal in any suitable folder
++ run command "git clone https://github.com/Jinisekh/jini-search-box.git"
+
 ### Install Gradle
 + **On Unix**
 
