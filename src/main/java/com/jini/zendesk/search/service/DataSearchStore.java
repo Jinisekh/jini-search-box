@@ -48,7 +48,7 @@ public class DataSearchStore {
         }
     }
 
-    private void displayOrgResult(String userInputField, String userInputValue, DataIndexStore indexStore) {
+    public void displayOrgResult(String userInputField, String userInputValue, DataIndexStore indexStore) {
         Map<String, Map<String, Set<Organization>>> orgSearchIndex = indexStore.getOrgSearchIndex();
         Map<Integer,Set<String>> orgToTicketRelationMap = indexStore.getOrgToTicketRelationMap();
         Map<Integer,Set<Integer>> orgToUserRelationship = indexStore.getOrgToUserRelationMap();
@@ -84,7 +84,7 @@ public class DataSearchStore {
         System.out.println("Found "+orgSearchIndex.get(userInputField).get(userInputValue.toLowerCase()).size()+" records");
     }
 
-    private void displayTicketResult(String userInputField, String userInputValue, DataIndexStore indexStore) {
+    public void displayTicketResult(String userInputField, String userInputValue, DataIndexStore indexStore) {
         Map<String, Map<String, Set<Ticket>>> ticketSearchIndex = indexStore.getTicketSearchIndex();
 
         if(!ticketSearchIndex.containsKey(userInputField) || !ticketSearchIndex.get(userInputField).containsKey(userInputValue.toLowerCase())){
@@ -120,7 +120,7 @@ public class DataSearchStore {
         System.out.println("Found "+ticketSearchIndex.get(userInputField).get(userInputValue.toLowerCase()).size()+" records");
     }
 
-    private void displayUserResult(String userInputField, String userInputValue, DataIndexStore indexStore) {
+    public void displayUserResult(String userInputField, String userInputValue, DataIndexStore indexStore) {
 
         Map<String, Map<String, Set<User>>> userSearchIndex = indexStore.getUserSearchIndex();
         Map<Integer, Set<String>> userToTicketSubmittedRelation = indexStore.getUserToTicketSubmittedRelationMap();
