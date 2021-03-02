@@ -20,15 +20,7 @@ This is a Java project built using gradle. To the run the application you must h
 
 ### Install Gradle
 
-+ **On Mac OS X**
-    + `brew install gradle`
-
-    + [Install Homebrew](http://brew.sh/).
-
-
-+ **On Windows**
-
-  + [Download from Gradle site](https://gradle.org/install/).
+  + [Installation guide for gradle](https://gradle.org/install/).
 
 ### Build and Run the Project
 
