@@ -25,6 +25,9 @@ This is a Java project built using gradle. To the run the application you must h
 ### Build and Run the Project
 
  - Open terminal on the project folder
+```
+cd <your-folder-path>/jini-search-box
+```
  - run below command 
 ```
  gradle clean build
