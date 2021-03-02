@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jini.zendesk.search.service.DataSearchStoreTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-02T00:01:22" hostname="Monendras-MBP-2.modem" time="0.344">
+  <properties/>
+  <testcase name="testDisplaySearchableFields" classname="com.jini.zendesk.search.service.DataSearchStoreTest" time="0.344"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

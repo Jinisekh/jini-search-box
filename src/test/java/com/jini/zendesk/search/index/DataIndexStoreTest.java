@@ -1,6 +1,7 @@
 package com.jini.zendesk.search.index;
 
 import com.jini.zendesk.model.Organization;
+import com.jini.zendesk.model.Ticket;
 import com.jini.zendesk.model.User;
 import com.jini.zendesk.util.Utils;
 import org.junit.Test;
@@ -61,6 +62,28 @@ public class DataIndexStoreTest {
         DataIndexStore indexStore = new DataIndexStore();
         indexStore.createTicketIndex(Utils.getFileFromResource("tickets_test.json"));
         assertEquals(200,indexStore.getTicketEntityMap().size());
-
+        Ticket ticket = indexStore.getTicketEntityMap().get("436bf9b0-1147-4c0a-8439-6f79833bff5b");
+        assertEquals("436bf9b0-1147-4c0a-8439-6f79833bff5b",ticket.get_id());
+        assertEquals("2016-04-28T11:19:34 -10:00",ticket.getCreated_at());
+        assertEquals("Nostrud ad sit velit cupidatat laboris ipsum nisi amet laboris ex exercitation amet et proident. Ipsum fugiat aute dolore tempor nostrud velit ipsum.",ticket.getDescription());
+        assertEquals("2016-07-31T02:37:50 -10:00",ticket.getDue_at());
+        assertEquals("9210cdc9-4bee-485f-a078-35396cd74063",ticket.getExternal_id());
+        assertEquals("high",ticket.getPriority());
+        assertEquals("pending",ticket.getStatus());
+        assertEquals("A Catastrophe in Korea (North)",ticket.getSubject());
+        assertEquals("incident",ticket.getType());
+        assertEquals("http://initech.zendesk.com/api/v2/tickets/436bf9b0-1147-4c0a-8439-6f79833bff5b.json",ticket.getUrl());
+        assertEquals("24",ticket.getAssignee_id().toString());
+        assertEquals("web",ticket.getVia());
+        assertEquals("false",ticket.getHas_incidents().toString());
+        assertEquals("116",ticket.getOrganization_id().toString());
+        assertEquals("38",ticket.getSubmitter_id().toString());
+        assertEquals("[Ohio, Pennsylvania, American Samoa, Northern Mariana Islands]",ticket.getTags().toString());
+        Map<String, Map<String, Set<Ticket>>> ticketSearchIndex = indexStore.getTicketSearchIndex();
+        assertEquals(16, ticketSearchIndex.size());
+        assertEquals(3,ticketSearchIndex.get("submitter_id").get("38").size());
+        assertNull(ticketSearchIndex.get("_id").get("436bf9b0"));
+        Set<Ticket> ticketSearchWithStatus = ticketSearchIndex.get("status").get("pending");
+        assertEquals(45,ticketSearchWithStatus.size());
     }
 }
