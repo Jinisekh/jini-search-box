@@ -19,14 +19,6 @@ This is a Java project built using gradle. To the run the application you must h
 ```
 
 ### Install Gradle
-+ **On Unix**
-
-```
-$ sudo add-apt-repository ppa:cwchien/gradle
-$ sudo apt-get update
-$ sudo apt-get install gradle
-```
-
 
 + **On Mac OS X**
     + `brew install gradle`
@@ -36,7 +28,7 @@ $ sudo apt-get install gradle
 
 + **On Windows**
 
-  + [Download from Gradle site](https://docs.gradle.org/current/userguide/installation.html).
+  + [Download from Gradle site](https://gradle.org/install/).
 
 ### Build and Run the Project
 
