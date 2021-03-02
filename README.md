@@ -65,14 +65,14 @@ Press 2 to view a list of searchable fields.
 Type 'quit' to exit.
 
 
-
+1
 <=========----> 75% EXECUTING [3s]
 Select 1) Users or 2) Tickets or 3) Organizations
-
+1
 <=========----> 75% EXECUTING [5s]
-Enter the search term::
+Enter the search term:: _id
 <==<=========----> 75% EXECUTING [8s]
-Enter the search value::
+Enter the search value:: 71
 <=========----> 75% EXECUTING [9s]
 -------------------------------------------------------
 Displaying Records found::::::::::
