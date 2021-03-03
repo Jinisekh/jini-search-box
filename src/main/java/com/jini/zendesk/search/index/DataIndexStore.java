@@ -48,6 +48,19 @@ public class DataIndexStore {
         return userEntityMap;
     }
 
+    public Map<String, Ticket> createTicketIndex(File jsonFile) throws IOException {
+        List<Ticket> ticketList = objectMapper.readValue(jsonFile, new TypeReference<List<Ticket>>() {
+        });
+        ticketList.forEach(ticket -> {
+            ticketEntityMap.put(ticket.get_id(), ticket);
+            addOrgToTicketRelations(ticket);
+            addUserToTicketSubmittedRelations(ticket);
+            addUserToTicketAssignedRelations(ticket);
+            addTicketToSearchIndex(ticket);
+        });
+        return ticketEntityMap;
+    }
+
     private void addUserToSearchIndex(User user) {
         JsonNode node = objectMapper.valueToTree(user);
         node.fields().forEachRemaining(e -> {
@@ -74,18 +87,7 @@ public class DataIndexStore {
         fieldValueIndex.get(lowerCaseValue).add(user);
     }
 
-    public Map<String, Ticket> createTicketIndex(File jsonFile) throws IOException {
-        List<Ticket> ticketList = objectMapper.readValue(jsonFile, new TypeReference<List<Ticket>>() {
-        });
-        ticketList.forEach(ticket -> {
-            ticketEntityMap.put(ticket.get_id(), ticket);
-            addOrgToTicketRelations(ticket);
-            addUserToTicketSubmittedRelations(ticket);
-            addUserToTicketAssignedRelations(ticket);
-            addTicketToSearchIndex(ticket);
-        });
-        return ticketEntityMap;
-    }
+
 
     private void addTicketToSearchIndex(Ticket ticket) {
         JsonNode node = objectMapper.valueToTree(ticket);
